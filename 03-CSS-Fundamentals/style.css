@@ -1,11 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
-  color: #444444;
+  color: #444;
 }
 
 .main-header {
@@ -70,3 +65,44 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+/* Styling Links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #0a7b8d;
+  font-weight: bold;
+  text-decoration: underline #0a7b8d;
+}
+
+a:active {
+  background-color: #0a7c8d34;
+}
+
+/* Resolving Conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
