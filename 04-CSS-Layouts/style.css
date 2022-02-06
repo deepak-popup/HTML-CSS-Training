@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 1200px;
   border-top: 10px solid #1098ad;
   margin: 0 auto;
   position: relative;
@@ -43,7 +43,7 @@ article {
   margin-bottom: 40px;
 }
 
-.post-image {
+.post-img {
   width: 100%;
   height: auto;
 }
@@ -193,3 +193,47 @@ button {
 footer p {
   color: green;
 } */
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
